@@ -1,0 +1,172 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: verdana;
+}
+
+button {
+	padding: 15px 20px 15px;
+	border-radius: 5px;
+	border: 0px;
+	color: white;
+	margin-left: 78%;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+
+/* header ---------------------------------------------- */
+
+
+header {
+	border-top: 20px solid #04e4a2;
+	background: #ff0038;
+	margin-bottom: 0px;
+}
+
+.container {
+	width: 1050px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo {
+	margin-top: -20px;
+	margin-left: 100px;
+}
+
+.toplink {
+	color: white;
+	font-size: 12px;
+	border-bottom: 2px solid #ffb74d;
+	margin-left: 920px;
+	margin-right: 50px;
+	margin-top: -90px;
+}
+
+/* hero ---------------------------------------------- */
+
+.hero {
+	background: #ff0038;
+	height: 290px;
+	margin-top: -13px;
+	padding-top: 215px;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: normal;
+	color: white;
+	margin-left: 50%;
+	margin-bottom: 20px;
+}
+
+.text {
+	margin-top: 10px;
+	color: white;
+	font-size: 13px;
+	margin-left: 50%;
+}
+
+.contact {
+	background-color: #ffb74d;
+}
+
+.lines {
+	position: absolute;
+	width: 650px;
+	margin-top: -327px;
+	margin-left: -1125px;
+}
+
+.phone {
+	position: absolute;
+	width: 280px;
+	margin-top: -235px;
+	margin-left: -825px;
+}
+
+/* form ------------------------------------------------- */
+
+h3 {
+	color: #ef5350;
+	font-size: 15px;
+	font-weight: normal;
+	margin-left: 53%;
+}
+
+form {
+	margin-left: 50%;
+	width: 400px;
+}
+
+input {
+	border: 0.5px solid #1de9b6;
+	padding: 10px 15px 10px;
+	width: 150px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+}
+
+.in2 {
+	float: right;
+	margin-right: 0px;
+}
+
+
+textarea {
+	border: 0.5px solid #1de9b6;
+	padding: 10px 15px 10px;
+	width: 370px;
+	margin-bottom: 20px;
+	height: 60px;
+	resize: none;
+}
+
+select {
+	border: 0.5px solid #1de9b6;
+	width: 180px;
+	margin-bottom: 20px;
+	margin-right: 0px;
+	border-radius: 0px;
+}
+
+.send {
+	padding: 15px 20px 15px;
+	border-radius: 5px;
+	border: 0px;
+	color: white;
+	margin-left: 78%;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	background-color: #04e4a2;
+	width: 90px; 
+}
+
+/* footer ---------------------------------------------- */
+
+footer {
+	background-color: #fefcf2;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #636363;
+	font-size: 13px;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+
+}
+
+ul li:first-child {
+	margin-left: 260px;
+	margin-right: 245px;
+	margin-top: -10px;
+}
+
+ul li:last-child {
+	margin-left: 10px;
+	margin-top: -40px;
+	vertical-align: center;
+}
