@@ -50,7 +50,7 @@ header {
 	background: #ff0038;
 	height: 290px;
 	margin-top: -13px;
-	padding-top: 215px;
+	padding-top: 150px;
 }
 
 h1 {
@@ -113,6 +113,28 @@ input {
 	margin-right: 0px;
 }
 
+.vipcursor {
+	border: 1px solid #1de9b6;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	width: 180px;
+	height: 33px;
+	background: url(img/cursor.png) no-repeat right;
+}
+
+.vipcursor select {
+	padding: 10px 15px 10px;
+	border: 0;
+	width: 180px;
+	margin-bottom: 20px;
+	margin-right: 0px;
+	border-radius: 0px;
+	display:-webkit-box;
+	-webkit-appearance: none;
+	background-color: white;
+	background: transparent;
+}
 
 textarea {
 	border: 0.5px solid #1de9b6;
@@ -121,19 +143,6 @@ textarea {
 	margin-bottom: 20px;
 	height: 60px;
 	resize: none;
-}
-
-select {
-	padding: 10px 15px 10px;
-	border: 0.5px solid #1de9b6;
-	width: 180px;
-	float: right;
-	margin-bottom: 20px;
-	margin-right: 0px;
-	border-radius: 0px;
-	display:-webkit-box;
-	-webkit-appearance: none;
-	background-color: white;
 }
 
 .send {
@@ -172,6 +181,11 @@ ul li:first-child {
 }
 
 ul li:last-child {
-	margin-left: 10px;
+	margin-left: 40px;
 	margin-top: -40px;
+}
+
+li img {
+	position: absolute;
+	margin-top: -5px;
 }
